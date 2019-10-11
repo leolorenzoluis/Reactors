@@ -8,19 +8,13 @@ This will be a one-day, expert led session where you'll explore Artificial Intel
 
 ## Prerequisites
 
-We make no assumptions about your level of knowledge when it comes to AI or ML. This course is built assuming you're curious about this emerging technology, but haven't necessarily experienced it first hand. Or maybe you're already using similar services on another cloud provider and want to explore Microsoft's offerings.
-
 The course does assume you are familiar with a programming language, such as Java, Ruby, or C#. We will be using Python, but no Python experience is required. We chose Python because it's an extremely popular language, especially in this space, and it's one whose syntax is relatively readable. We have provided a [primer on Python](./intro-python.md) and [Flask](./intro-flask.md) (which we use for the website you'll be creating) to help get you started.
 
-## System requirements
+We make no assumptions about your level of knowledge when it comes to AI or ML. This course is built assuming you're curious about this emerging technology, but haven't necessarily experienced it first hand. Or maybe you're already using similar services on another cloud provider and want to explore Microsoft's offerings.
 
-You can follow along with the coding demos on your own systems. In order to do so, you'll need a couple of locally installed resources:
+## Workshop requirements
 
-- [Python](./install-python.md)
-- Code editor, such as [Visual Studio Code](https://code.visualstudio.com/)
-- [Azure Command Line Interface (CLI)](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)
-- [Starter site](./install-starter.md)
-- [Launch the starter](./starting-site.md)
+If you wish to follow along, there's a few steps you'll need to complete to configure your system. We've got a full [setup guide](./setup.md) for you to use!
 
 ## Course modules
 
