@@ -25,7 +25,7 @@ az cognitiveservices account create --resource-group contoso-travel-rg --name fa
 Retrieve the key you just created by using the Azure CLI. Make sure you **log this key somewhere**, as we'll be using it momentarily.
 
 ``` bash
-az cognitiveservices account keys list --resource-group contoso-travel-rg --name computer-vision --query key1 --output tsv
+az cognitiveservices account keys list --resource-group contoso-travel-rg --name face-api --query key1 --output tsv
 ```
 
 ### Adding the key to .env
