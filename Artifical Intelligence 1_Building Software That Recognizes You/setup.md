@@ -80,8 +80,9 @@ Note: If you're using macOS or Linux the leading . for the . ./env/bin/activate 
 6. Install the necessary Python packages
 Install the packages listed in requirements.txt by using pip
 
-pip install -r requirements.tx
-
+``` console
+pip install -r requirements.txt
+```
 7. Confirm the site starts
 
 ``` console
