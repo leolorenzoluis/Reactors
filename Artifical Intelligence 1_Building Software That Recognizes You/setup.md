@@ -56,27 +56,30 @@ git clone https://github.com/microsoft/reactors
 
 ``` console
 # Windows
-cd reactors\ai-workshop\starter-site
+cd reactors\Artifical Intelligence 1_Building Software That Recognizes You\starter-site
 
 # Linux or macOS
-cd ./reactors/ai-workshop/starter-site
+cd ./reactors/Artifical Intelligence 1_Building Software That Recognizes You/starter-site
 ```
 
-5. Create a virtual environment for Python packages and install required packages.
+5. Create a virtual environment and install packages
+Let's create a virtual environment for the packages we'll be using. Virtual environments allow us to separate packages from other environments. Return to the command line and issuing the following command:
 
-``` console
 # Windows
 python -m venv env
 .\env\Scripts\activate
-pip install -r requirements.txt
 
-# Linus or macOS
+# macOS or Linux
 python3 -m venv env
 . ./env/bin/activate
-pip3 install -r requirements.txt
-```
+Note: If you're using macOS or Linux the leading . for the . ./env/bin/activate is required as it indicates to Python where your source code resides.
 
-6. Confirm the site starts
+6. Install the necessary Python packages
+Install the packages listed in requirements.txt by using pip
+
+pip install -r requirements.tx
+
+7. Confirm the site starts
 
 ``` console
 flask run
